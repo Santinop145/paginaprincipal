@@ -54,3 +54,10 @@ a{
 .boton:active{
     background: radial-gradient(red, rgb(170, 0, 0));
 }
+.test{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
