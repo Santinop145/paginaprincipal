@@ -5,8 +5,10 @@
     color: white;
 }
 body {
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(black, rgb(25, 25, 25));
-    height: 100vh;
+    height: 95vh;
 }
 h1{
     text-shadow: black;
@@ -26,24 +28,25 @@ footer{
     display: flex;
     flex-direction: column;
 }
-.filaboton{
-    margin: 4.2%;
-    display: flex;
-    flex-direction: row;
+.GUI{
     justify-content: center;
     align-items: center;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr
 }
 a{
     text-decoration: none;
-    width: 15%;
-    height: 15%;
+    transition: padding 1s;
+}
+a:hover{
+    padding: 3%;
+    transition: padding 1s;
 }
 .boton{
     border: 5px black outset;
-    margin: 0 1%;
     border-radius: 10px;
     background: radial-gradient(black, rgb(50 50 50));
-    transition: border-radius 0.5s, padding 0.5s;
+    transition: border-radius 0.5s;
 }
 .github{
     width: 80%;
@@ -52,8 +55,7 @@ a{
 .boton:hover{
     border-radius: 15px;
     background: radial-gradient(black, rgb(30 30 30));
-    padding: 5%;
-    transition: border-radius 0.5s, padding 0.5s;
+    transition: border-radius 0.5s;
 }
 .boton:active{
     background: radial-gradient(red, rgb(170, 0, 0));
