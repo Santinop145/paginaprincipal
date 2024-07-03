@@ -14,14 +14,6 @@ h1{
     text-shadow: black;
     text-align: center;
 }
-h3{
-    margin-left: 80%;
-    margin-bottom: 10%;
-    color: yellow;
-    transform: rotate(-45deg);
-    width: 15%;
-    height: 5%;
-}
 p{
     font-size: 75%;
     padding: 5%;
