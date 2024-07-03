@@ -17,7 +17,9 @@ h1{
 h3{
     text-align: right;
     color: yellow;
-    transform: rotate(45deg);
+    transform: rotate(225deg);
+    width: 10%;
+    height: 10%;
 }
 p{
     font-size: 75%;
