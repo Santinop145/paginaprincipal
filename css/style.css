@@ -15,7 +15,8 @@ h1{
     text-align: center;
 }
 h3{
-    margin-left: 90%;
+    margin-left: 80%;
+    margin-bottom: 10%;
     color: yellow;
     transform: rotate(-45deg);
     width: 15%;
