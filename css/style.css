@@ -15,9 +15,9 @@ h1{
     text-align: center;
 }
 h3{
-    text-align: right;
+    margin-left: 90%;
     color: yellow;
-    transform: rotate(225deg);
+    transform: rotate(-45deg);
     width: 15%;
     height: 5%;
 }
