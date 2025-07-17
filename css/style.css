@@ -40,22 +40,22 @@ a{
 }
 a:hover{
     padding: 3%;
-    transition: padding 1s;
+    transition: padding 2s;
 }
 .boton{
-    border: 5px black outset;
-    border-radius: 10px;
+    border: 2px black outset;
+    border-radius: 8px;
     background: radial-gradient(black, rgb(50 50 50));
-    transition: border-radius 0.5s;
+    transition: border-radius 0.3s;
 }
 .github{
     width: 80%;
     height: 5%;
 }
 .boton:hover{
-    border-radius: 15px;
+    border-radius: 10px;
     background: radial-gradient(black, rgb(30 30 30));
-    transition: border-radius 0.5s;
+    transition: border-radius 0.3s;
 }
 .boton:active{
     background: radial-gradient(red, rgb(170, 0, 0));
